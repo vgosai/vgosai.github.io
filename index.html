@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vishnu Gosai — Portfolio</title>
+  <meta name="description" content="Vishnu Gosai — Gameplay & Systems programmer / Game developer portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home">Vishnu Gosai</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HOME ========= -->
+  <section id="home" class="section hero">
+    <div class="container hero-inner">
+      <div>
+        <h1 class="title">Vishnu Gosai</h1>
+        <p class="tagline">Gameplay & Systems Programmer • Focused on core systems, tools, and clean code.</p>
+        <div class="cta-row">
+          <a href="#portfolio" class="btn primary">See Projects</a>
+          <a href="#resume" class="btn ghost">View Resume</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <img src="images/hero.jpg" alt="" onerror="this.style.display='none'">
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========= -->
+  <section id="about" class="section">
+    <div class="container grid-2">
+      <div>
+        <div class="frame">
+          <img src="images/headshot.jpg" alt="Vishnu Gosai headshot">
+        </div>
+      </div>
+      <div>
+        <h2>Learn more about me</h2>
+        <p>I’m a Computer Science undergrad at Georgia Tech, graduating in 2025. What draws me to game development is its creative breadth—where code, art, music, and design all collide. I love working with people who know more than I do in each area and weaving their strengths into one cohesive experience. Every project is a new puzzle with its own rules, so the “right” solution changes with the needs of the game. That variability keeps me learning—from low-level systems and performance to building tools that empower teammates.</p>
+        <ul class="about-list">
+          <li><strong>City:</strong> Atlanta, GA, USA</li>
+          <li><strong>Email:</strong> <a href="mailto:vishnu.j.gosai@gmail.com">vishnu.j.gosai@gmail.com</a></li>
+        </ul>
+        <h3>Skills &amp; Tools</h3>
+        <p class="skills">
+          Unity • Unreal • Blender • C • C++ • C# • Python • Java • MySQL • Git • VR (Unity)
+        </p>
+        <h3>Interests</h3>
+        <p>Systems Programming, 3D Modeling/Animation, and Making/Playing Games.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RESUME ========= -->
+  <section id="resume" class="section">
+    <div class="container">
+      <h2>Resume</h2>
+      <div class="resume-grid">
+        <!-- LEFT COLUMN -->
+        <div>
+          <h3 class="accent">Summary</h3>
+          <div class="card">
+            <p><strong>Vishnu Gosai</strong><br/>
+            969 Osage Road, Georgia<br/>
+            <a href="tel:+14129958817">+1-412-995-8817</a> • <a href="mailto:vishnu.j.gosai@gmail.com">vishnu.j.gosai@gmail.com</a></p>
+          </div>
+
+          <h3 class="accent">Education</h3>
+          <div class="card">
+            <p><strong>Georgia Institute of Technology</strong>, Atlanta, GA — B.S. in Mathematics<br/>
+            <em>Anticipated Graduation: 2025</em></p>
+          </div>
+
+          <h3 class="accent">University Projects</h3>
+          <!-- CHIMERA -->
+          <div class="resume-entry">
+            <div class="re-head">
+              <span class="re-title">Chimera</span>
+              <span class="re-role">Programming Mentor</span>
+            </div>
+            <div class="re-date">Aug 2025 – Present</div>
+            <div class="re-sub">Isometric dungeon crawler (Unity) • <a class="re-link" href="https://github.com/wangsop/Chimera" target="_blank" rel="noopener">GitHub Repository</a></div>
+            <ul class="re-bullets">
+              <li>Guided coding standards and performed code reviews; refactored systems for clearer architecture and long-term scalability.</li>
+              <li>Built a streamlined asset-creation workflow so designers could get content into the game faster.</li>
+              <li>Helped develop procedural dungeon and enemy layouts with Unity Tilemaps using approachable randomized pathing and region-partitioning techniques; taught the approach to the team.</li>
+            </ul>
+          </div>
+          <!-- CHIME -->
+          <div class="resume-entry">
+            <div class="re-head">
+              <span class="re-title">Chime</span>
+              <span class="re-role">Project Lead • Systems Programmer • 3D Asset Creation</span>
+            </div>
+            <div class="re-date">Aug 2024 – Dec 2024</div>
+            <div class="re-sub">Isometric action (Unity) • <a class="re-link" href="https://github.com/vgosai3/Chime" target="_blank" rel="noopener">GitHub Repository</a></div>
+            <ul class="re-bullets">
+              <li>Coached teammates on coding best practices and helped implement enemy AI behaviors and combat interactions.</li>
+              <li>Facilitated a Blender→Unity pipeline (FBX exports, grid-snapped modular kits, URP materials) so level and character designers could create assets and bring them in quickly.</li>
+              <li>Drove project management through milestone planning and proactive scope tuning to keep the build shippable.</li>
+            </ul>
+          </div>
+
+          <h3 class="accent">Additional</h3>
+          <div class="card">
+            <p><strong>Technical Skills:</strong> Unity, Blender, Unreal, C++, C#, C, Java, Python, MySQL</p>
+            <p><strong>Volunteering:</strong> The Hive (GT Makerspace) — 3D modeling/printing &amp; PCB fabrication support</p>
+            <p><strong>Accolades:</strong> Honorable Mention for Best Mechanics, Global Game Jam @ GSU 2025</p>
+            <p><strong>Clubs:</strong> Georgia Tech Video Game Development Club (VGDev) (2024–2025)</p>
+            <p><strong>Mentoring:</strong> Programming mentor for a current project lead at VGDev</p>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div>
+          <h3 class="accent">Experience</h3>
+
+          <div class="card">
+            <div class="line">
+              <div>
+                <strong>Software Engineer</strong> — Greentree Medical Center (Highfield Care)
+              </div>
+              <div class="meta">Pittsburgh, PA • Mar 2025 – Present</div>
+            </div>
+            <ul>
+              <li>Collaborate with the practice’s IT lead to build EMR integrations and SMART-on-FHIR apps that streamline clinical workflows.</li>
+              <li>Reduce time-to-care by automating data flow between systems. <em>Tech:</em> Python, MySQL.</li>
+              <li>Role includes technical assistance to IT lead and hands-on feature implementation.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="line">
+              <div>
+                <strong>Undergraduate TA — CS 2200</strong> — Georgia Institute of Technology
+              </div>
+              <div class="meta">Atlanta, GA • Jan 2025 – Aug 2025</div>
+            </div>
+            <ul>
+              <li>Supported a course on computer systems &amp; architecture (C/C++): grading, test writing, labs, and reviews.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="line">
+              <div>
+                <strong>Undergraduate Research Assistant — Janus Lab</strong> — Georgia Tech
+              </div>
+              <div class="meta">Atlanta, GA • Mar 2025 – Sep 2025</div>
+            </div>
+            <ul>
+              <li>Built VR environments in Unity for episodic memory &amp; aging research.</li>
+              <li>Collaborated with researchers to translate study needs into interactive spaces.</li>
+              <li>Lab site: <a href="https://sites.gatech.edu/liaolab/" target="_blank" rel="noopener">liaolab</a></li>
+            </ul>
+          </div>
+
+          <h3 class="accent">Game Jam Projects</h3>
+
+          <div class="resume-entry">
+            <div class="re-head">
+              <span class="re-title">Meowhem</span>
+              <span class="re-role">Project Lead • Systems Programmer • Animation</span>
+            </div>
+            <div class="re-date">GMTK 2025</div>
+            <div class="re-sub">2D action platformer (Unity) • <a class="re-link" href="https://github.com/vgosai/GMTK2025Jam" target="_blank" rel="noopener">GitHub Repository</a></div>
+            <ul class="re-bullets">
+              <li>Built the core systems with a strong emphasis on responsiveness and feel—snappy movement, precise control, and satisfying feedback loops.</li>
+              <li>Coordinated with the artist to produce fluid animations that reinforce movement and readability.</li>
+            </ul>
+          </div>
+
+          <div class="resume-entry">
+            <div class="re-head">
+              <span class="re-title">Dungeon-Divers</span>
+              <span class="re-role">Systems • Design • Programming</span>
+            </div>
+            <div class="re-date">Game Jam</div>
+            <div class="re-sub">Top-down action roguelite • <a class="re-link" href="https://github.com/vgosai/collectionPixelGame" target="_blank" rel="noopener">GitHub Repository</a></div>
+            <ul class="re-bullets">
+              <li>Contributed to core gameplay systems and responsive player feel.</li>
+              <li>Explored procedural level layouts and encounter variety with simple, readable generation passes.</li>
+              <li>Coordinated with the artist to align animation timing and VFX with gameplay.</li>
+            </ul>
+          </div>
+
+          <div class="resume-entry">
+            <div class="re-head">
+              <span class="re-title">Bubber Ducky</span>
+              <span class="re-role">3D Art • Animation</span>
+            </div>
+            <div class="re-date">Game Jam</div>
+            <div class="re-sub">Physics-forward jam project • <a class="re-link" href="https://github.com/vgosai/bubber-ducky" target="_blank" rel="noopener">GitHub Repository</a></div>
+            <ul class="re-bullets">
+              <li>Created all 3D models and animation-ready assets used in the build.</li>
+              <li>Partnered closely with the mechanics programmer to align animation state machines with gameplay systems for a smooth, fluid feel.</li>
+              <li>Contributed polish passes on timing and feedback so interactions read clearly.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PORTFOLIO ========= -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2>Portfolio</h2>
+
+      <div class="portfolio-grid">
+        <article class="card project" data-project="chimera">
+          <img src="images/chimera-1.png" alt="Chimera thumbnail" onerror="this.style.display='none'">
+          <h3>Chimera</h3>
+        </article>
+        <article class="card project" data-project="chime">
+          <img src="images/chime-1.png" alt="Chime thumbnail" onerror="this.style.display='none'">
+          <h3>Chime</h3>
+        </article>
+        <article class="card project" data-project="bubber">
+          <img src="images/bubber-1.png" alt="Bubber Ducky thumbnail" onerror="this.style.display='none'">
+          <h3>Bubber Ducky</h3>
+        </article>
+        <article class="card project" data-project="mewohem">
+          <img src="images/mewohem-1.png" alt="Meowhem thumbnail" onerror="this.style.display='none'">
+          <h3>Meowhem</h3>
+        </article>
+        <article class="card project" data-project="dungeondivers">
+          <img src="images/dungeondivers-1.png" alt="Dungeon-Divers thumbnail" onerror="this.style.display='none'">
+          <h3>Dungeon-Divers</h3>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Modal (keep at end of body) -->
+  <div id="projectModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal-body">
+        <div class="modal-media">
+          <div class="carousel" id="modalCarousel" aria-live="polite"></div>
+          <div class="dots" id="carouselDots" role="tablist" aria-label="Project images"></div>
+        </div>
+        <div class="modal-text">
+          <h3 id="modalTitle"></h3>
+          <p id="modalCategory" class="muted small"></p>
+          <div id="modalDesc"></div>
+          <p id="modalLinkWrap"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== CONTACT ========= -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Reach Out</h2>
+      <div class="contact-grid">
+        <div class="card">
+          <div class="ico"><i class="fa-solid fa-location-dot"></i></div>
+          <div>
+            <h4>Location</h4>
+            <p>Atlanta, GA, USA</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="ico"><i class="fa-solid fa-envelope"></i></div>
+          <div>
+            <h4>Email</h4>
+            <p><a href="mailto:vishnu.j.gosai@gmail.com">vishnu.j.gosai@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="ico"><i class="fa-brands fa-linkedin"></i></div>
+          <div>
+            <h4>Social Profiles</h4>
+            <p>
+              <a href="https://www.linkedin.com/in/vishnu-gosai-389509349/" target="_blank" rel="noopener">LinkedIn</a> •
+              <a href="https://github.com/vgosai" target="_blank" rel="noopener">GitHub</a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="ico"><i class="fa-solid fa-phone"></i></div>
+          <div>
+            <h4>Call Me</h4>
+            <p><a href="tel:+14129958817">+1-412-995-8817</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Vishnu Gosai • Built for GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
