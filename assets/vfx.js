@@ -72,12 +72,7 @@
       experienceHTML: `
         <h4 style="margin:.4rem 0 .25rem;">Experience</h4>
         <p>
-          Building on my earlier version, I expanded the layering strategy and refined how each pass contributes to the final
-          read. I added control masks so <strong>caustics are depth-aware</strong>—they concentrate in shallow areas and fall
-          off naturally with depth—then raised <strong>contrast</strong> to make the pattern feel crisp without overpowering
-          the base gradient. I also rebuilt the <strong>specular highlights</strong> into <em>smaller, sparser sparkles</em>
-          so the surface shimmers instead of cluttering the frame. These changes came from testing variations, comparing
-          captures side-by-side, and dialing parameters toward what supports play first and foremost.
+          Building on my earlier version, I refined how each pass contributes to the final read by adding depth-aware caustic masks, increasing contrast for clarity, and rebuilding specular highlights into smaller, sparser sparkles that shimmer without cluttering the frame. I integrated procedurally generated textures created at runtime to align the water’s behavior with each procedurally generated environment, ensuring visual cohesion across levels. I also used dithering and noise to blend color bands while preserving the pixelated look, applying shader techniques like quantization and render-textures to capture the stylized aesthetic of pixel art within a 2.5D world.
         </p>      `
     }
   ];
