@@ -74,6 +74,39 @@
         <p>
           Building on my earlier version, I refined how each pass contributes to the final read by adding depth-aware caustic masks, increasing contrast for clarity, and rebuilding specular highlights into smaller, sparser sparkles that shimmer without cluttering the frame. I integrated procedurally generated textures created at runtime to align the water’s behavior with each procedurally generated environment, ensuring visual cohesion across levels. I also used dithering and noise to blend color bands while preserving the pixelated look, applying shader techniques like quantization and render-textures to capture the stylized aesthetic of pixel art within a 2.5D world.
         </p>      `
+    },
+    {
+      id: 'water-editor',
+      title: 'Custom Inspector & Automated Scene Diagnostics:',
+      tags: 'Unity 6 • Editor • C#',
+      slides: [
+        {
+          src: 'images/Water_Editor.gif',
+          alt: 'Animated stylized water shader custom editor',
+          caption: 'Water Shader + Custom Editor Scripts.'
+        }
+      ],
+      experienceHTML: `
+        <h4 style="margin:.4rem 0 .25rem;">Experience</h4>
+        <p>
+          A custom Unity Editor inspector featuring an in-editor “Create Dungeon” button. This tool scans the scene for objects containing components that inherit from a specific base class, then automatically triggers the procedural generation pipeline. It allows artists and level designers to visually validate shader behavior across different dungeon layouts without manual setup, streamlining iteration and testing. You can also see a customized inspector for the water material used in the water shader demo, where a dedicated script was used to organize and group related shader properties for easy parameter tuning and efficient visual adjustments.</p>      `
+    },
+    {
+      id: 'Runtime Texture Validation Viewer',
+      title: 'Runtime Texture Validation Viewer',
+      tags: 'Unity 6 • C#',
+      slides: [
+        {
+          src: 'images/Water_Editor_2.gif',
+          alt: 'Animated stylized water shader custom viewport',
+          caption: 'Water Shader + Custom Viewport Scripts.'
+        }
+      ],
+      experienceHTML: `
+        <h4 style="margin:.4rem 0 .25rem;">Experience</h4>
+        <p>
+          A custom viewport overlay used to visualize runtime-generated textures (such as height maps, caustic masks, and foam masks) directly in-scene. The tool assists in debugging and validating texture outputs for shaders by displaying them at runtime, eliminating the need to manually save and inspect assets. This helps with validation of consistent shader behavior across procedural environments.
+        </p>      `
     }
   ];
 
