@@ -60,7 +60,7 @@
     },
     {
       id: 'water-shader',
-      title: 'Water Shader',
+      title: 'Water Shader/Water Dungeon Environment',
       tags: 'Unity 6 • Shader Graph • C#',
       slides: [
         {
