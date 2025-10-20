@@ -52,7 +52,7 @@ const PROJECT_DETAILS = {
     title: 'Bubber Ducky',
     category: 'Game Jam • 3D Art & Programming',
     images: ['images/bubber-1.png','images/bubber-2.png','images/bubber-3.png'],
-    desc: `Bubber Ducky is where I learned to make art work with mechanics—modeling and animating assets while pairing closely with the gameplay programmer to validate feel in engine. We refined rigs, state machines, and timing so movement, collisions, and feedback landed cleanly, then polished the result together. That process taught me how to shape assets around systems to achieve a smooth, playful feel.`,
+    desc: `Bubber Ducky is where I really focused on making animations and models that would make the player controller feel smooth and responsive. We refined rigs, state machines, and timing so movement, collisions, and feedback landed cleanly. That process taught me how to shape assets around systems to achieve a smooth, playful feel.`,
     link: { href: 'https://github.com/vgosai/bubber-ducky', label: 'GitHub — Bubber Ducky' }
   },
   mewohem: {
@@ -66,7 +66,7 @@ const PROJECT_DETAILS = {
     title: 'Dungeon-Divers',
     category: 'Game Jam • Systems • Design • Programming',
     images: ['images/dungeondivers-1.png','images/dungeondivers-2.png','images/dungeondivers-3.png'],
-    desc: `Dungeon-Divers became my sandbox for procedural generation and scalability. I experimented with simple generators and constraints to create layouts that stayed readable, then organized tiles and data so content could grow without breaking flow. Through that process I learned how to balance unpredictability with clarity.`,
+    desc: `Dungeon-Divers became my sandbox for procedural generation and scalability. I experimented with simple generators and constraints to create layouts that stayed readable, then organized tiles and data so content could grow without breaking flow. Through that process I learned how to balance unpredictability with clarity. In addition, I got familiar with creating facing direction animation sets and programming the managing system for 8 directional movement for pixel art characters.`,
     link: { href: 'https://github.com/vgosai/collectionPixelGame', label: 'GitHub — Dungeon-Divers' }
   }
 };
